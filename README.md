@@ -55,8 +55,7 @@ We can obtain different kinds of information from the API:
 - /characters/chat/<name>' : returns the chats where the character introduced participates and the participants.
 - /messages/<name> : returns the messages of the character introduced.
 
-Con requests a la API podemos analizar los sentimientos de los mensajes que se han escrito en un chat, los sentimientos de una frase random de un usuario o de todos los mensajes de un usuario para saber si se expresa feliz o triste.
-
+With API requests we can analize the messages sentiments: 
 
 - /messages/nlp/participant/<name> : returns the nlp metrics specified in the functions documentation of the messages of the character introduced.
 - /messages/nlp/chat/<chat_name> : returns the nlp metrics specified in the functions documentation of the messages of the chat_name introduced.
